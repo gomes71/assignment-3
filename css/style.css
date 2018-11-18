@@ -1,0 +1,170 @@
+/* Header Css */
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+
+
+}
+.row::after{
+	content: "";
+	display: table;
+	clear:  both;
+	background: red;
+
+}
+
+.column{
+	float: left;
+	width: 50%;
+}
+
+.logo{
+	padding-top: 6px;
+}
+.navigation{
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 14px
+
+	
+}
+
+.navigation li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px
+
+}
+
+.navigation li a{
+	text-decoration: none;
+	color:  black;
+}
+
+.navigation li a:hover{
+	color: gray;
+
+}
+
+/* Banner Css */
+
+.row::after{
+	content: "";
+	display: table;
+	clear:  both;
+	background: red;
+
+}
+
+.banner_area{
+	background: #f6f8fa;
+	height: 770px;
+}
+.container_banner{
+	width: 1140px;
+	margin: auto;
+}
+.banner_image{
+	width: 420px;
+	padding-top: 5%;
+}
+
+.banner_info{
+	padding-top: 40%;
+}
+
+section .column h1{
+	font-size: 16px;
+	color: #313131;
+	padding: 0px;
+}
+
+.banner_info button a{
+	text-decoration: none;
+	color: black;
+}
+
+.banner_info button a:hover{
+	color: gray;
+}
+
+/* Product Css */
+
+.row::after{
+	content: "";
+	display: table;
+	clear:  both;
+	background: red;
+
+}
+
+.product_area{
+	background: white;
+	height: 720px;
+}
+
+.product_info{
+	padding-top: 40%;
+}
+
+.product_info button a{
+	text-decoration: none;
+	color: black;
+}
+
+.product_info button a:hover{
+	color: gray;
+}
+
+
+.product_image{
+	padding-top: 20%;
+	padding-right: 10px;
+	width: 650px;
+
+}
+
+/* Ratings Css */
+
+.row::after{
+	content: "";
+	display: table;
+	clear:  both;
+	background: red;
+
+}
+
+.ratings_info{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.banner_info_text{
+	padding-top: 5%;
+}
+.ratings_area{
+	background: #f6f8fa;
+	height: 720px;
+}
+
+/* Pricing Css */
+
+
+.row::after{
+	content: "";
+	display: table;
+	clear:  both;
+	background: red;
+}
+
+.pricing_area{
+	background: white;
+	height: 720px;
+}
