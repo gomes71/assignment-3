@@ -16,7 +16,6 @@ body{
 .container_1{
 	width: 950px;
 	margin: auto;
-	border: 1px solid red;
 	height: 55px;
 }
 
@@ -65,7 +64,6 @@ body{
 .container_2{
 	width: 950px;
 	margin: auto;
-	border: 1px solid red;
 	height: 670px;
 }
 
@@ -87,14 +85,12 @@ body{
 
 .text_1{
 	color: #0095f7;
-	border: 1px solid black;
 }
 
 .text_2{
 	color: #3a3f52;
 	font-size: 45px;
 	font-weight: 300;
-	border: 1px solid black;
 }
 .text_3{
 	color: #8f9cad;
@@ -126,7 +122,6 @@ body{
 .container_3{
 	width: 950px;
 	margin: auto;
-	border: 1px solid red;
 	height: 670px;
 }
 
@@ -177,7 +172,6 @@ body{
 .container_4{
 	width: 950px;
 	margin: auto;
-	border: 1px solid red;
 	height: 620px;
 }
 
@@ -201,16 +195,13 @@ body{
 	font-stretch: condensed;
 }
 .reco_info .text_3{
-	border: 1px solid black;
 	padding-top: 10px;
 }
 
 .reco{
-	border: 1px solid red;
 	font-family: roboto;
 }
 .reco_1{
-	border: 1px solid red;
 	width: 50%;
 	height: 300px;
 	float: left;
@@ -218,9 +209,9 @@ body{
 
 }
 .reco_2{
-	border: 1px solid red;
 	width: 50%;
 	height: 300px;
+	float: right;
 
 }
 
@@ -229,7 +220,6 @@ body{
 	height: 75%;
 	background: white;
 	border-radius: 15px;
-	border: 0px solid blue;
 	margin-top: 20%;
 	margin-left: 0%;
 	box-shadow: 0 0 20px 0px rgba(241, 241, 241, 0.5), 0px 0px 20px 0px rgba(193, 193, 193, 0.5);
@@ -237,7 +227,6 @@ body{
 }
 
 .author{
-	border: 1px solid yellow;
 	height: 40%;
 }
 .author_image{
@@ -245,7 +234,6 @@ body{
 	padding-top: 18px;
 	padding-left: 25px;
 	padding-right: 0;
-	border: 1px solid blue;
 	width: 15%;
 
 }
@@ -258,15 +246,12 @@ body{
 .author_info{
 	padding-top: 22px;
 	float: left;
-	position: relative;
 
 }
 
 .author_info p{
 	margin: 0;
 	padding: 0;
-	position: relative;
-	
 }
 .name_1{
 	font-size: 22px;
@@ -276,17 +261,15 @@ body{
 	color: #3a3f52;
 }
 .name span{
-	border: 1px solid purple;
 	margin-top: 10px;
-	border: 1px solid red;
 	width: 15px;
 	height: 8px;
 	
 }
 .position_1{
+
 	font-size: 12px;
 	font-weight: 300;
-	position: fixed;
 	color: #8f9cad;
 }
 
@@ -314,8 +297,8 @@ body{
 .container_5{
 	width: 950px;
 	margin: auto;
-	border: 1px solid red;
 	height: 600px;
+	font-family: roboto;
 }
 
 .price_info{
@@ -325,27 +308,87 @@ body{
 	height: 180px;
 }
 
-.price_1{
+.price_info p{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.price_info .text_2{
+	margin: 0;
+    padding: 0;
+
+}
+
+/* .price_1{
 	width: 33.1%;
 	border: 1px solid blue;
 	float: left;
 	height: 350px;
+} */
+
+.price_1{
+	width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 4px;
+    margin-top: 0%;
+    margin-left: 0%;
+    box-shadow: 0 0 20px 0px rgba(241, 241, 241, 0.5), 0px 0px 20px 0px rgba(193, 193, 193, 0.5);
+    float: left;
 }
 
-.price_2{
+/* .price_2{
 	width: 33.1%;
 	border: 1px solid blue;	
 	float: left;
 	height: 350px;
 }
+ */
+.price_2{
+	width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 4px;
+    margin-top: 0%;
+    margin-left: 2.75%;
+    box-shadow: 0 0 20px 0px rgba(241, 241, 241, 0.5), 0px 0px 20px 0px rgba(193, 193, 193, 0.5);
+    float: left;
 
+}
 
-.price_3{	
+/* .price_3{	
 	width: 33.1%;
 	border: 1px solid blue;
 	float: left;
 	height: 350px;
 
+} */
+
+.price_3{
+	width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 4px;
+    margin-top: 0%;
+    margin-left: 0%;
+    box-shadow: 0 0 20px 0px rgba(241, 241, 241, 0.5), 0px 0px 20px 0px rgba(193, 193, 193, 0.5);
+    float: right;
+}
+
+.price_1 p{
+	margin-left: 20px;
+}
+
+.price_1 .text_1{
+	font-weight: 400;
+	margin-top: 30px;
+	font-size: 18px;
+	color: #6772e5;
+}
+
+.price_1 .text_2{
+    color: #3a3f52;
+    font-size: 45px;
 }
 
 /* user login */
