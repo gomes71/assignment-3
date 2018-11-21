@@ -178,7 +178,7 @@ body{
 	width: 950px;
 	margin: auto;
 	border: 1px solid red;
-	height: 550px;
+	height: 620px;
 }
 
 .reco_info{
@@ -189,23 +189,31 @@ body{
 	font-family: roboto;
 }
 
+.reco_info p{
+	padding: 0;
+	margin: 0;
+}
+
 .reco_info .text_2{
 	/* font-family: montserrat; */
+	padding-top: 8%;
 	font-size: 38px;
 	font-stretch: condensed;
 }
 .reco_info .text_3{
 	border: 1px solid black;
+	padding-top: 10px;
 }
 
 .reco{
 	border: 1px solid red;
+	font-family: roboto;
 }
 .reco_1{
 	border: 1px solid red;
-	float: left;
 	width: 50%;
 	height: 300px;
+	float: left;
 
 
 }
@@ -215,6 +223,91 @@ body{
 	height: 300px;
 
 }
+
+.reco_1_in{
+	width: 95%;
+	height: 75%;
+	background: white;
+	border-radius: 15px;
+	border: 0px solid blue;
+	margin-top: 20%;
+	margin-left: 0%;
+	box-shadow: 0 0 20px 0px rgba(241, 241, 241, 0.5), 0px 0px 20px 0px rgba(193, 193, 193, 0.5);
+	float: left;
+}
+
+.author{
+	border: 1px solid yellow;
+	height: 40%;
+}
+.author_image{
+	float: left;
+	padding-top: 18px;
+	padding-left: 25px;
+	padding-right: 0;
+	border: 1px solid blue;
+	width: 15%;
+
+}
+.author_image img{
+	border-radius: 50%;
+	width: 55px;
+
+}
+
+.author_info{
+	padding-top: 22px;
+	float: left;
+	position: relative;
+
+}
+
+.author_info p{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	
+}
+.name_1{
+	font-size: 22px;
+	width: 80%;
+	float: left;	
+	padding-right: 0;
+	color: #3a3f52;
+}
+.name span{
+	border: 1px solid purple;
+	margin-top: 10px;
+	border: 1px solid red;
+	width: 15px;
+	height: 8px;
+	
+}
+.position_1{
+	font-size: 12px;
+	font-weight: 300;
+	position: fixed;
+	color: #8f9cad;
+}
+
+.reco_1_in hr{
+	padding: 0;
+	margin: 0;
+	margin: auto;
+	width: 95%;
+	border: 0;
+	height: 1px;
+	background: #c0cfe2;
+}
+.author_text{
+	padding-left: 25px;
+	padding-right: 20px;
+	font-size:15px;
+	font-weight: 400;
+	color: #8f9cad;
+
+}
+
 
 /* pricing */
 
